@@ -1,36 +1,32 @@
 # Sistema de Planilla basado en Microservicios
-
 Sistema de gestión de planilla desarrollado para instituciones educativas, orientado a la automatización del cálculo de salarios para personal docente y administrativo.
 
 El sistema permite registrar empleados, gestionar salarios base, calcular automáticamente el salario total, aplicar descuentos legales obligatorios (ISSS, AFP y Renta) y generar comprobantes de pago digitales.
 
 La solución está construida bajo una arquitectura de microservicios utilizando Java y Spring Boot, lo que permite dividir el sistema en módulos independientes, facilitando su mantenimiento, escalabilidad y evolución.
 
-## Objetivo
-
+## Proposito
 Desarrollar un sistema transaccional que permita gestionar y automatizar los procesos relacionados con la planilla salarial, garantizando eficiencia, confiabilidad, seguridad y control administrativo en instituciones educativas.
 
 ## Arquitectura del sistema
-
 El sistema está compuesto por los siguientes microservicios:
 
-- **Microservicio de Empleados  **
+- Microservicio de Empleados
   Gestiona la información del personal, incluyendo registro, consulta, actualización y eliminación.
 
-- **Microservicio de Cálculo de Planilla ** 
+- Microservicio de Cálculo de Planilla
   Calcula el salario bruto y neto en función del salario base, horas trabajadas y bonificaciones.
 
-- **Microservicio de Descuentos  **
+- Microservicio de Descuentos
   Administra y aplica descuentos legales como ISSS, AFP y Renta.
 
-- **Microservicio de Reportes ** 
+- Microservicio de Reportes
   Genera comprobantes de pago y reportes administrativos en distintos formatos.
 
-- **Microservicio de Usuarios y Seguridad**  
+- Microservicio de Usuarios y Seguridad
   Gestiona la autenticación y autorización mediante control de roles y uso de tokens.
 
 ## Tecnologías utilizadas
-
 - Java 17  
 - Spring Boot  
 - Spring Data JPA  
@@ -42,7 +38,6 @@ El sistema está compuesto por los siguientes microservicios:
 - Trello para gestión de tareas  
 
 ## Funcionalidades principales
-
 - Registro y gestión de empleados  
 - Cálculo automático de salarios  
 - Aplicación de descuentos legales  
@@ -51,7 +46,6 @@ El sistema está compuesto por los siguientes microservicios:
 - Generación de reportes administrativos  
 
 ## Requisitos no funcionales
-
 - Seguridad mediante almacenamiento encriptado de contraseñas y control de acceso por roles  
 - Alta disponibilidad del sistema  
 - Procesamiento eficiente de cálculos de planilla  
@@ -59,9 +53,7 @@ El sistema está compuesto por los siguientes microservicios:
 - Facilidad de uso desde distintos dispositivos  
 
 ## Base de datos
-
 El sistema utiliza un modelo relacional que incluye entidades como:
-
 - Empleado  
 - SalarioBase  
 - HorasClase  
@@ -72,7 +64,6 @@ El sistema utiliza un modelo relacional que incluye entidades como:
 - Rol  
 
 ## Equipo de desarrollo
-
 - Gabriela Stephani Figueroa Calderón  
 - Daniela Nicole García Guillén  
 - Josué Ernesto Mena Colato  
